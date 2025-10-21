@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 .flex {
@@ -25,4 +27,9 @@
 
 .flex3{
     flex: 3;
+}
+
+.flexJustify {
+    align-items: center;
+    justify-content: center;
 }
