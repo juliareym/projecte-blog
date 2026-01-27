@@ -3,14 +3,55 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Registrat</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./../css/style.css">
+        <link rel="stylesheet" href="./../css/colors.css">
     </head>
-    <body>
-   <img src="./../img/underConstruction.jpg" alt="Under Construction">
-        
-        <script src="" async defer></script>
-    </body>
+<body>
+    <header class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <h1>Blog Musica</h1>
+    </header>
+    <nav class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <ul class="">
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./../index.html">Pagina principal</a></li>
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./about.html">About</a></li>
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./contact.html">Contact</a></li>
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./posts.html">Posts</a></li>
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./login.html">Login</a></li>
+        </ul>
+    </nav>
+    <main class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <form action="./register.php" method="POST">
+            <label for="user"><b>Usuari</b></label>
+            <input id="user" type="text" placeholder="Introdueix el teu usuari" name="uname" required>
+            
+            <label for="email"><b>Email</b></label>
+            <input type="email"  placeholder="Nom@gmail.com" name="email" required>
+
+            <label for="pwd"><b>Contrasenya</b></label>
+            <input id="pwd" type="pasword" placeholder="Introdueix la teva contrasenya" name="password" required>
+
+            <label for="date"><b>Data de neixament</b></label>
+            <input type="date">
+
+            <label for="tel"><b>Telèfon</b></label>
+            <input id="tel" type="tel" placeholder="000000000">
+
+            <button type="submit">Register</button>
+            
+        </form>
+    </main>
+    <aside>
+        <img src="./../img/Únete hoy al blog de música.png" alt="UNETE HOY A NUESTO BLOG!!!" width= "450">
+    </aside>
+    <footer class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <p>Baliga balaguipsum, tros de ferralla mocós fastigós curts de mires no siguis ruc no siguis ruc microbi per
+            què t’entestes a seguir-me, que potser vols anar a explicar-ho a la teva mama és com prendre un caramel a un
+            nen! merdetes què fas burro! què fas burro! desgraciat misèria que ets ruc o què maleït no siguis ruc.
+        </p>
+    </footer>
+
+</body>
 </html>
