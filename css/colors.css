@@ -7,3 +7,11 @@ header {
 nav {
     background-color: lightgreen;
 }
+
+main {
+    background-color: coral;
+}
+
+footer {
+    background-color: darkkhaki;
+}

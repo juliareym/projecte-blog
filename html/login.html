@@ -1,16 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-   <img src="./../img/underConstruction.jpg" alt="Under Construction">
-        
-        <script src="" async defer></script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/colors.css">
+</head>
+
+<body>
+    <header class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <h1>Blog Musica</h1>
+    </header>
+    <nav class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <ul class="">
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="#">Home</a></li>
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./html/about.html">About</a></li>
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./html/contact.html">Contact</a></li>
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./html/login.html">Login</a></li>
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./html/posts.html">Posts</a></li>
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./html/register.html">Register</a></li>
+        </ul>
+    </nav>
+    <main class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <form action="./login.php" method="POST">
+            <label for="user"><b>Usuari</b></label>
+            <input id="user" type="text" placeholder="Introdueix el teu usuari" name="uname" required>
+
+            <label for="pwd"><b>Contrasenya</b></label>
+            <input id="pwd" type="pasword" placeholder="Introdueix la teva contrasenya" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </main>
+    <footer class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <p>Asdf</p>
+    </footer>
+
+</body>
+
 </html>

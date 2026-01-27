@@ -11,6 +11,23 @@ body {
     width: 100vw;
 }
 
+header {
+  height: 15vh;
+}
+
+nav {
+  height: 5vh;
+}
+
+main {
+  height: 70vh;
+}
+
+footer {
+  height: 10vh;
+}
+
+
 /* Contenidor */
 .container {
   width: 100%;
