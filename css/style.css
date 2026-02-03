@@ -102,3 +102,30 @@ footer {
   .col-lg-11 { width: 91.6666%; }
   .col-lg-12 { width: 100%; }
 }
+
+form div {
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+.sectionForm {
+  height: 100%;
+}
+
+/*FLEXBOX*/
+
+.flex {
+  display: flex;
+}
+
+.flexCol {
+  flex-direction: column;
+}
+
+.flexRow {
+  flex-direction: row;
+}
+
+.flexJustify {
+  align-items: center;
+  justify-content: center;
+}

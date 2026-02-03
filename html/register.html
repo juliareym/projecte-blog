@@ -1,50 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Registrat</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./../css/style.css">
-        <link rel="stylesheet" href="./../css/colors.css">
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registrat</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/colors.css">
+</head>
+
 <body>
     <header class="col-12 col-sm-12 col-md-12 col-lg-12">
         <h1>Blog Música</h1>
     </header>
     <nav class="col-12 col-sm-12 col-md-12 col-lg-12">
         <ul class="">
-            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./../index.html">Pagina principal</a></li>
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./../index.html">Home</a></li>
             <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./about.html">About</a></li>
             <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./contact.html">Contact</a></li>
-            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./posts.html">Posts</a></li>
             <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./login.html">Login</a></li>
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./posts.html">Posts</a></li>
+            <li class="col-12 col-sm-6 col-md-4 col-lg-2"><a href="./register.html">Register</a></li>
         </ul>
     </nav>
     <main class="col-12 col-sm-12 col-md-12 col-lg-12">
-        <form action="./register.php" method="POST">
-            <label for="user"><b>Usuari</b></label>
-            <input id="user" type="text" placeholder="Introdueix el teu usuari" name="uname" required>
-            
-            <label for="email"><b>Email</b></label>
-            <input type="email"  placeholder="Nom@gmail.com" name="email" required>
+        <section class="sectionForm flex flexJustify">
+            <form class="flex flexCol flexJustify formRegister" action="./register.php" method="POST">
+                <div>
+                    <label for="user"><b>Usuari</b></label>
+                    <input id="user" type="text" placeholder="Introdueix el teu usuari" name="uname" required>
+                </div>
 
-            <label for="pwd"><b>Contrasenya</b></label>
-            <input id="pwd" type="pasword" placeholder="Introdueix la teva contrasenya" name="password" required>
+                <div>
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Nom@gmail.com" name="email" required>
+                </div>
 
-            <label for="date"><b>Data de neixament</b></label>
-            <input type="date">
+                <div>
+                    <label for="pwd"><b>Contrasenya</b></label>
+                    <input id="pwd" type="pasword" placeholder="Introdueix la teva contrasenya" name="password"
+                        required>
+                </div>
 
-            <label for="tel"><b>Telèfon</b></label>
-            <input id="tel" type="tel" placeholder="000000000">
+                <div>
+                    <label for="date"><b>Data de neixament</b></label>
+                    <input type="date">
+                </div>
 
-            <button type="submit">Register</button>
-            
-        </form>
+                <div>
+                    <label for="tel"><b>Telèfon</b></label>
+                    <input id="tel" type="tel" placeholder="000000000">
+                </div>
+
+                <div>
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </section>
     </main>
     <aside>
-        <img src="./../img/Únete hoy al blog de música.png" alt="UNETE HOY A NUESTO BLOG!!!" width= "450">
+        <img src="./../img/Únete hoy al blog de música.png" alt="UNETE HOY A NUESTO BLOG!!!" width="450">
     </aside>
     <footer class="col-12 col-sm-12 col-md-12 col-lg-12">
         <p>Baliga balaguipsum, tros de ferralla mocós fastigós curts de mires no siguis ruc no siguis ruc microbi per
@@ -54,4 +71,5 @@
     </footer>
 
 </body>
+
 </html>
