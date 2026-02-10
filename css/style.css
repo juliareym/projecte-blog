@@ -31,7 +31,7 @@ footer {
 /* Contenidor */
 .container {
   width: 100%;
-  overflow: hidden; /* neteja floats */
+  /* overflow: hidden; neteja floats */
 }
 
 /* Columna base */

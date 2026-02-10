@@ -1,17 +1,20 @@
 /* Eliminar o comentar al acabar */
 
 header {
-    background-color: lightblue;
+    background-color: rgb(35, 35, 35);
+    color: white;
 }
 
 nav {
-    background-color: lightgreen;
+    background-color: rgb(200, 30, 123);
+    color: white;
 }
 
 main {
-    background-color: coral;
+    background-color: aliceblue;
 }
 
 footer {
-    background-color: darkkhaki;
+    background-color: dimgray;
+    color: white;
 }
