@@ -28,20 +28,31 @@
         </ul>
     </nav>
     <main class="col-12 col-sm-12 col-md-12 col-lg-12">
-        <form action="./login.php" method="POST">
-            <label for="user"><b>Usuari</b></label>
-            <input id="user" type="text" placeholder="Introdueix el teu usuari" name="uname" required>
+        <section class="sectionForm flex flexJustify">
+            <form class="flex flexCol flexJustify formRegister" action="./login.php" method="POST">
+                <div>
+                    <label for="user"><b>Usuari</b></label>
+                    <input id="user" type="text" placeholder="Introdueix el teu usuari" name="uname" required>
+                </div>
 
-            <label for="pwd"><b>Contrasenya</b></label>
-            <input id="pwd" type="pasword" placeholder="Introdueix la teva contrasenya" name="password" required>
+                <div>
+                    <label for="pwd"><b>Contrasenya</b></label>
+                    <input id="pwd" type="pasword" placeholder="Introdueix la teva contrasenya" name="password"
+                        required>
+                </div>
 
-            <button type="submit">Login</button>
-        </form>
+                <div>
+                    <button type="submit">Login</button>
+                </div>
+
+            </form>
+        </section>
+
     </main>
     <footer class="col-12 col-sm-12 col-md-12 col-lg-12">
-        <p>Baliga balaguipsum, tros de ferralla mocós fastigós curts de mires no siguis ruc no siguis ruc microbi per
-            què t’entestes a seguir-me, que potser vols anar a explicar-ho a la teva mama és com prendre un caramel a un
-            nen! merdetes què fas burro! què fas burro! desgraciat misèria que ets ruc o què maleït no siguis ruc.
+        <p>
+            Si no estas registrat, ves a register per posar les teves dades i així enterar-te de tot el que posem en el
+            nostre blog!
         </p>
     </footer>
 
